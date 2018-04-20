@@ -26,7 +26,7 @@ import bookshow.service.TicketService;
 import bookshow.service.VisitService;
 
 @RestController
-@RequestMapping(value = "/purchase")
+@RequestMapping(value = "/api/purchase")
 public class PurchaseController {
 	@Autowired
 	private PurchaseService purchaseService;

@@ -28,7 +28,7 @@ import bookshow.service.SeatService;
 import bookshow.service.MailService;
 
 @RestController
-@RequestMapping(value = "ticket")
+@RequestMapping(value = "/api/ticket")
 public class TicketController {
 	
 	@Autowired

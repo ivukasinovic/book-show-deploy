@@ -21,7 +21,7 @@ import bookshow.service.ProjectionService;
 import bookshow.service.TicketService;
 
 @RestController
-@RequestMapping(value="/projection")
+@RequestMapping(value="/api/projection")
 public class ProjectionController {
 	
 	@Autowired

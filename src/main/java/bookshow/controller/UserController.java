@@ -18,6 +18,7 @@ import java.util.List;
  * Created by Ivan V.
  */
 @RestController
+@RequestMapping(value = "/api")
 public class UserController {
     @Autowired
     private UserService UserService;

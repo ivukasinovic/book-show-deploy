@@ -25,7 +25,7 @@ import java.util.List;
  * Created by Ivan V. on 29-Jan-18
  */
 @RestController
-@RequestMapping(value = "/used-props")
+@RequestMapping(value = "/api/used-props")
 public class UsedPropController {
     @Autowired
     private UsedPropService usedPropService;

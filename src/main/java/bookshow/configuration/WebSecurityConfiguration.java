@@ -91,7 +91,7 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .antMatchers("/projection/get-by-repertoire").permitAll()
                 .antMatchers("/ticket/get-discounts/{showId}").permitAll()     
                 .antMatchers("/rateshow/calculate-show-rating/{showId}").permitAll()
-                .anyRequest().fullyAuthenticated();
+                .anyRequest().permitAll();
 
         // Custom JWT based authentication
         httpSecurity

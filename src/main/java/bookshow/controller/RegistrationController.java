@@ -18,6 +18,7 @@ import bookshow.domain.users.User;
 import bookshow.service.UserService;
 
 @RestController
+@RequestMapping(value = "/api")
 public class RegistrationController {
 
 	@Autowired

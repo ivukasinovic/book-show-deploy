@@ -22,7 +22,7 @@ import bookshow.service.ShowService;
 import bookshow.service.UserService;
 
 @RestController
-@RequestMapping(value = "/rateshow")
+@RequestMapping(value = "/api/rateshow")
 public class RateShowController {
 	
 	@Autowired

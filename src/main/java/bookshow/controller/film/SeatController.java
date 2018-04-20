@@ -18,6 +18,7 @@ import bookshow.service.AuditoriumService;
 import bookshow.service.SeatService;
 import bookshow.service.TicketService;
 @RestController
+@RequestMapping(value = "/api")
 public class SeatController {
 	@Autowired
 	private SeatService SeatService;

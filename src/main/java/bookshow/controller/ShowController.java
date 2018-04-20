@@ -16,7 +16,7 @@ import java.security.Principal;
 import java.util.List;
 
 @RestController
-@RequestMapping(value="/shows")
+@RequestMapping(value="/api/shows")
 public class ShowController {
 
 	@Autowired

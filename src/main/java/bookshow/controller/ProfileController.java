@@ -28,6 +28,7 @@ import bookshow.service.UserService;
 
 
 @RestController
+@RequestMapping(value = "/api")
 public class ProfileController {
 	
 	@Autowired

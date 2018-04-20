@@ -22,7 +22,7 @@ import java.util.List;
 /**
  * Created by Ivan V. on 29-Jan-18
  */
-@RequestMapping(value = "/new-props")
+@RequestMapping(value = "/api/new-props")
 @RestController
 public class NewPropController {
     @Autowired

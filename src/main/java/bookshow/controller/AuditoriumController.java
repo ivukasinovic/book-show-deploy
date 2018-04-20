@@ -15,7 +15,7 @@ import bookshow.domain.Auditorium;
 import bookshow.service.AuditoriumService;
 
 @RestController
-@RequestMapping(value = "/auditorium")
+@RequestMapping(value = "/api/auditorium")
 public class AuditoriumController {
 
 	@Autowired

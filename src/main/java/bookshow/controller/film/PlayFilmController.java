@@ -20,6 +20,7 @@ import bookshow.domain.movie.PlayFilm;
 import bookshow.service.PlayFilmService;
 
 @RestController
+@RequestMapping(value = "/api")
 public class PlayFilmController {
 	
 	@Autowired

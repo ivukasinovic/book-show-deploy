@@ -16,7 +16,7 @@ import bookshow.service.RepertoireService;
 
 
 @RestController
-@RequestMapping(value="/repertoire")
+@RequestMapping(value="/api/repertoire")
 public class RepertoireController {
 	@Autowired
 	RepertoireService repertoireService;

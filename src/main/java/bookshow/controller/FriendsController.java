@@ -19,6 +19,7 @@ import bookshow.service.FriendshipService;
 import bookshow.service.RequestService;
 
 @RestController
+@RequestMapping(value = "/api")
 public class FriendsController {
 
 	@Autowired
