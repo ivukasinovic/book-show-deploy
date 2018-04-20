@@ -25,7 +25,7 @@ public class MailServiceImpl implements MailService {
             String htmlMsg = "<h3>Aktiviranje naloga!</h3><br>"
                     + "<div>Dobrodosli "+usernameToSend+" na nas sajt <b>ISA projekta </b></div>"
                     + "<div>Kliknite <a href ="
-                    + " \"http://localhost:4200/api/accountActivation/"+usernameToSend+"\">"
+                    + " \"https://book-show.herokuapp.com/api/accountActivation/"+usernameToSend+"\">"
                     + "<u>ovde</u></a> kako biste aktivirali vas nalog.</div>";
             mimeMessage.setContent(htmlMsg, "text/html");
             helper.setTo(emailAdress);
